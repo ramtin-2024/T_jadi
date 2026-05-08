@@ -27,7 +27,7 @@ for i in range(1):
     else:
         print(f"{n} Usual")    
 
-#version without for 
+#version without (for)
 """
 n = int (input("Enter The Number You Want:"))
 
