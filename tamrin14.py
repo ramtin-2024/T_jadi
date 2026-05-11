@@ -25,7 +25,7 @@ def is_positive(number):
 
 print(is_positive(-1))
 
-#versin 2
+#version 2
 """
 def is_positive(number):
     if number >= 0 :
