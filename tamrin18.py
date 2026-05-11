@@ -18,5 +18,8 @@ def sum_numbers(*args) :
     
 
 
-number = list (map (int,input("Please enter numbers with spaces.").split()) )    
-print(sum_numbers(*number)) 
+number = list (map (int,input("Please enter numbers with spaces:").split()) )
+if number == []  :
+    print(0)
+else:
+    print(sum_numbers(*number)) 
